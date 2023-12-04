@@ -30,6 +30,13 @@ function RSA() {
     document.getElementById('shifrlangantext(ct)').innerHTML = ct;
     document.getElementById('text(dt)').innerHTML = dt;
 }
+
+document.addEventListener('keydown', function (e){
+    if(e.key === "Enter"){
+        RSA();
+    }
+})
+
 /*
 gcd: Ikkita sonning eng kichik umumiy bo'luvchisini topish uchun rekursiv funksiya.
 p: p qiymatini olish uchun p elementining ID-si orqali HTML-formasidan olgan qiymat.
