@@ -20,8 +20,10 @@ function RSA() {
     }
     ctt = Math.pow(no, e).toFixed(0);
     ct = ctt % n;
+    console.log(ctt);
     dtt = Math.pow(ct, d).toFixed(0);
     dt = dtt % n;
+    console.log(dtt);
     document.getElementById('kalit(N)').innerHTML = n;
     document.getElementById('kalit1(e)').innerHTML = e;
     document.getElementById('kalit2(d)').innerHTML = d;
