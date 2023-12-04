@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oybek</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <h1 style="text-align: center;">RSA Algoritm:</h1>
+    <hr>
+    <table class="center">
+        <tr>
+            <td> P:</td>
+            <td><input type="tel" value="3" id="p"></td>
+        </tr>
+        <tr>
+            <td> Q :</td>
+            <td><input type="tel" value="11" id="q"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Harfni tartib raqamini kiriting:<br>[A=1, B=2,...]</td>
+            <td><input type="number" value="15" id="msg"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>N:</td>
+            <td>
+                <p id="kalit(N)"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>e:</td>
+            <td>
+                <p id="kalit1(e)"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>d:</td>
+            <td>
+                <p id="kalit2(d)"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>C:</td>
+            <td>
+                <p id="shifrlangantext(ct)"></p>
+            </td>
+        </tr>
+        <tr>
+          <td>M:</td>
+          <td>
+              <p id="text(dt)"></p>
+          </td>
+      </tr>
+        <tr>
+            <td><button onclick="RSA();">RSA</button></td>
+        </tr>
+    </table>
+    <p class="imzo">O'ralov Oybek tomonidan yaratildi</p>
+
+    <script src="app.js"></script>
+  </body>
+</html>
